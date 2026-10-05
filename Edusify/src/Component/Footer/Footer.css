@@ -1,0 +1,35 @@
+.footer {
+    margin: 10px auto;
+    display: flex;
+    justify-content: space-between;
+    border-top: 1px solid #797979;
+    padding: 15px 0;
+}
+.footer p {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 20px;
+    font-style: italic;
+    color: #000;
+}
+.footer ul li {
+    list-style: none;
+    display: inline-block;
+    margin-left: 20px;
+    font-size: 20px;
+    font-style: italic;
+    color: #000;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+/* media query */
+@media (max-width: 600px) {
+    .footer {
+        display: block;
+        text-align: center;
+    }
+    .footer ul li {
+        margin: 10px;
+    }
+    .footer ul {
+        margin-top: 10px;
+    }
+}
