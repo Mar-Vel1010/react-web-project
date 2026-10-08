@@ -1,4 +1,4 @@
-import  { useState } from 'react'
+import { useState } from 'react'
 import Navbar from './Component/Navbar'
 import Hero from './Component/Hero/Hero'
 import Programs from './Component/Programs/Programs'
@@ -8,7 +8,7 @@ import Campus from './Component/Campus/Campus'
 import Testimonials from './Component/Testimonials/Testimonials'
 import Contact from './Component/Contact/Contact'
 import Footer from './Component/Footer/Footer'
-import VideoPlayer from './Component/videoPlayer/VideoPlayer'
+import VideoPlayer from './Component/VideoPlayer/VideoPlayer'
 
 
 function App() {
